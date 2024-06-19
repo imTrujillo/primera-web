@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mi primera Web</title>
+    <link rel="stylesheet" href="style.css" />
+    <script
+      src="https://kit.fontawesome.com/258416451b.js"
+      crossorigin="anonymous"
+    ></script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Biryani:wght@200;300;400;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <!-- Barra de navegación-->
+    <header class="barrita">
+      <h4>
+        Bienvenidos
+        <i class="fa-solid fa-basketball"><a href="index.html"></a></i>
+      </h4>
+
+      <nav>
+        <input type="checkbox" id="check" />
+        <label for="check" class="checkbtn">
+          <i class="fa-solid fa-bars"></i>
+        </label>
+        <ul>
+          <li><a href="index.html">Inicio</a></li>
+          <li><a href="index.html">Quién soy</a></li>
+          <li><a href="index.html">Trabajos</a></li>
+          <li><a href="index.html">Servicios</a></li>
+          <li><a href="formulario/formulario.html">Contacto</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <!-- Presentación-->
+
+    <main id="seccion-principal">
+      <section class="introduccion">
+        <div>
+          <img
+            class="fotito"
+            src="img/photo1 (2).jpg"
+            alt=" Siempre estate motivado cipote"
+          />
+        </div>
+        <div class="acerca-de">
+          <h2>Acerca de Mí</h2>
+          <p>
+            ¡Hola! Bienvenido a mi página web, soy Steven Trujillo, tengo 18
+            años y soy residente de San Salvador, El Salvador. Mi casa tiene
+            muchos arboles y plantas, por lo que en mis ratos libres, salgo al
+            patio a despejar mi mente. Me encanta dibujar paisajes y disfruto
+            tocar piano. También, soy padre de dos perrihijas: Pimienta y
+            Negrita.
+          </p>
+        </div>
+      </section>
+
+      <!-- Hobbies-->
+      <section class="hobbies">
+        <div class="hobbies-texto">
+          <h2>Hobbies</h2>
+          <p>
+            Me gusta tocar el piano porque me relaja mucho cuando estoy
+            estresado, mi pieza favorita es "Merry Go Round". También en
+            momentos de estrés, me pongo a ver series o leer libros. Mi última
+            serie fue Breaking Bad y mi libro favorito es "22/11/63" de Stephen
+            King.
+          </p>
+        </div>
+        <img class="fotito" src="img/photo1.jpg" />
+      </section>
+
+      <section class="fondo-2">
+        <h1>Mi Ciudad</h1>
+
+        <div class="cuadrito">
+          <div class="ciudad">
+            <h2>San Salvador</h2>
+            <img src="img/Sansalvador.jpg" alt="" />
+            <p class="especial">
+              La ciudad más grande del país, a solo 30 minutos de su Aeropuerto
+              Internacional, nos ofrece espacios antiguos conviviendo con
+              modernos centros comerciales, donde los poderes públicos y las
+              industrias tienen su sede, con opciones tanto para el ocio como
+              para el disfrute de la vida en la naturaleza.
+            </p>
+            <a href="https://elsalvadorviajar.com/san-salvador/">Leer Más...</a>
+          </div>
+          <div class="ciudad">
+            <h2>Centro histórico</h2>
+            <img src="img/centrohistorico.jpg" alt="" />
+            <p class="especial">
+              Contando con palacios, bibliotecas, teatros, ex cines y plazas
+              importantes, el Centro Histórico de San Salvador ofrece a turistas
+              nacionales e internacionales variadas opciones turísticas que
+              permiten interactuar y conocer a profundidad la cultura
+              salvadoreña.
+            </p>
+            <a
+              href="https://www.laprensagrafica.com/cultura/La-riqueza-arqueologica-del-Centro-Historico-de-San-Salvador-20240606-0056.html"
+              >Leer Más...</a
+            >
+          </div>
+          <div class="ciudad">
+            <h2>Biblioteca Nacional</h2>
+            <img src="img/biblioteca.png" alt="" />
+            <p class="especial">
+              El Salvador ya cuenta con una nueva Biblioteca Nacional que
+              prestará servicio las 24 horas del día, todos los días del año, lo
+              que la convierte en la primera en el mundo en su forma de gestión.
+              El moderno edificio 5G cuenta con Internet en los siete niveles de
+              los que consta y estará al servicio de la población salvadoreña
+              día a día.
+            </p>
+            <a
+              href="https://www.cultura.gob.sv/la-nueva-biblioteca-nacional-de-el-salvador-y-sus-servicios-para-la-poblacion/"
+              >Leer Más...</a
+            >
+          </div>
+          <div class="ciudad">
+            <h2>Palacio Nacional</h2>
+            <img src="img/palacio.jpg" alt="" />
+            <p class="especial">
+              El Palacio Nacional de El Salvador es una de las edificaciones más
+              simbólicas y majestuosas del país. Considerado como uno de los
+              monumentos emblemáticos de El Salvador, el palacio fue construido,
+              originalmente, para albergar los tres órganos de poder del Estado
+              salvadoreño, junto a sus oficinas.
+            </p>
+            <a
+              href="https://guanacos.com/palacio-nacional-de-el-salvador-cumplio-40-anos-de-ser-declarado-monumento-nacional/"
+              >Leer Más...</a
+            >
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <div class="final">
+        <div>
+          <h3>Tenga un gran día perris</h3>
+          <button id="btn-generar">
+            <strong>Generar Frase Aleatoria</strong>
+          </button>
+
+          <p id="frase">
+            "Para tener éxito, primero debemos creer que podemos hacerlo." -
+            Nikos Kazantzakis
+          </p>
+          <script src="script.js"></script>
+        </div>
+        <div class="final-final">
+          <h3>Contáctame:</h3>
+
+          <div class="final-container">
+            <div>
+              <ul>
+                <li><i class="fa-brands fa-facebook"></i></li>
+                <li><i class="fa-brands fa-square-instagram"></i></li>
+              </ul>
+            </div>
+            <div>
+              <ul>
+                <li>Steven Trujillo</li>
+                <li>c.es.t.rujiii</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
